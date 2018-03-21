@@ -3,12 +3,12 @@
   "version": "0.18.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "grunt"
   },
   "author": "Reza Akhavan <jedireza@gmail.com> (http://reza.akhavan.me/)",
   "license": "MIT",
   "engines": {
-    "node": ">=4.0.0"
+    "node": "6.11.2"
   },
   "dependencies": {
     "async": "1.x.x",
