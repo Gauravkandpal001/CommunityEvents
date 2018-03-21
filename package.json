@@ -3,7 +3,8 @@
   "version": "0.18.1",
   "private": true,
   "scripts": {
-    "start": "grunt"
+    "postinstall": "grunt uglify",
+    "start": "node app.js"
   },
   "author": "Reza Akhavan <jedireza@gmail.com> (http://reza.akhavan.me/)",
   "license": "MIT",
@@ -23,6 +24,9 @@
     "express": "4.13.x",
     "express-messages": "^1.0.1",
     "express-session": "1.x.x",
+    "grunt": "1.0.2",
+    "grunt-cli": "1.2.0",
+    "grunt-contrib-uglify": "1.0.2",
     "helmet": "2.x.x",
     "jade": "1.x.x",
     "method-override": "2.x.x",
